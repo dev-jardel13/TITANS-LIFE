@@ -1,0 +1,51 @@
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>TITAN'S LIFE SUPLEMENTOS</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="header">
+<div class="brand">
+
+<img id="logo" src="Logo.jpeg" alt="Logo da Loja">
+<div class="brand-text">
+<h1>TITAN'S LIFE</h1>
+<p class="muted">SUA LOJA DE SUPLEMENTOS FAVORITA</p>
+</div>
+</div>
+
+<button id="btn-mudar-tema" class="btn-tema">🌓 MUDAR TEMA</button>
+
+
+<a id="instagramLink" class="btn insta" href="https://www.instagram.com/titanslife_sup" target="_blank" rel="noopener">Comprar pelo Instagram</a>
+</header>
+
+
+<main class="main">
+<section class="hero">
+<h2>Coleção em destaque</h2>
+<p class="muted">Clique em "Ver" para ver detalhes e preço.</p>
+</section>
+
+
+<section id="productGrid" class="grid" aria-live="polite"></section>
+</main>
+
+
+
+<div id="modal" class="modal hidden" role="dialog" aria-hidden="true">
+<div class="modal-box">
+<button id="closeModal" class="modal-close" aria-label="Fechar">×</button>
+<img id="modalImg" alt="Imagem do produto">
+<h3 id="modalTitle"></h3>
+<p id="modalDesc"></p>
+<p id="modalPrice" class="price"></p>
+<a id="modalBuy" class="btn insta" target="_blank" rel="noopener">Comprar no Instagram</a>
+</div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
