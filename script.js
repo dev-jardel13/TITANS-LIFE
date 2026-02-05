@@ -9,7 +9,14 @@ const products = [
   { id:5, title:'Pasta de Amendoim', desc:'Pasta natural de amendoim - rica em calorias boas.', price:'R$ 30,00', img:'PastadeAmendoim.png' },
   { id:6, title:'Pré-treino Maçã Verde', desc:'Sabor maçã verde - energia prolongada.', price:'R$ 90,00', img:'pretreinomacaverde.png' },
   { id:7, title:'Pré-treino Max 300g (var.)', desc:'Versão alternativa do pré-treino.', price:'R$ 90,00', img:'pretreinomax300g.jpeg' },
-  { id:8, title:'Colágeno Tipo 2', desc:'Melhora da articulação.', price:'R$ 59,90', img:'Colagentipo2.png' }
+  { id:8, title:'Colágeno Tipo 2', desc:'Melhora da articulação.', price:'R$ 59,90', img:'Colagentipo2.png' },
+  { id:9, title:'Tasty Whey Chocotella.', desc:'Whey sabor chocotella - alta concentração de proteína.', price:'R$ 210,50', img:'TastyWheyChocotella.png' } ,
+  { id: 10, title:'Melatonina Max ', desc:'Suplemento para melhorar o sono e recuperação.', price:'R$ 45,00', img:'MELATONINA MAX.png' },
+  {id:11, title: ' Max Omega 3 ', desc: 'Suplemento de ômega 3 para saúde cardiovascular.', price: 'R$ 70,00', img: 'Omega3.png' },
+  {id:12, title:'Ashwagandha', desc:'Suplemento para redução do estresse e ansiedade.', price:'R$ 65,00', img:'Ashwagandha.png' },
+  {id:13, title: 'Nacetilcisteína (NAC)', desc: 'Antioxidante que ajuda na desintoxicação do organismo.', price: 'R$ 70,00', img: 'NAC.png' },
+  {id:14, title: 'Tribulus Terrestris', desc: 'Suplemento para aumento da testosterona e desempenho atlético.', price: 'R$ 69,90', img: 'Tribulus Terrestris.png' },
+  { id:15, title:'Tasty Whey Original Leite Ninho.', desc:'Whey sabor Leite ninho - alta concentração de proteína.', price:'R$ 169,90', img:'TastyWhey.jpeg' } ,
 ];
 
 const grid = document.getElementById('productGrid');
