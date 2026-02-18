@@ -1,6 +1,8 @@
 
 const WHATSAPP_NUMBER = '5585985471748';
 
+
+
 const products = [
   { id:1, title:'Whey Baunilha', desc:'Whey protein sabor baunilha - alta concentração de proteína.', price:'R$ 140,00', img:'wheybaunilha.png' },
   { id:2, title:'Pré-treino Max 300g', desc:'Energia e foco para treinos intensos.', price:'R$ 90,00', img:'pretreinomax300g.jpeg' },
