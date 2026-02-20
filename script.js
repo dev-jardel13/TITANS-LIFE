@@ -14,7 +14,7 @@ const products = [
   { id:8, title:'Colágeno Tipo 2', desc:'Melhora da articulação.', price:'R$ 59,90', img:'Colagentipo2.png' },
   { id:9, title:'Tasty Whey Chocotella.', desc:'Whey sabor chocotella - alta concentração de proteína.', price:'R$ 210,50', img:'TastyWheyChocotella.png' } ,
   { id: 10, title:'Melatonina Max ', desc:'Suplemento para melhorar o sono e recuperação.', price:'R$ 45,00', img:'MELATONINA MAX.png' },
-  {id:11, title: ' Max Omega 3 ', desc: 'Suplemento de ômega 3 para saúde cardiovascular.', price: 'R$ 70,00', img: 'Omega3.png' },
+  {id:11, title: ' Max Ômega 3 ', desc: 'Suplemento de ômega 3 para saúde cardiovascular.', price: 'R$ 70,00', img: 'Omega3.png' },
   {id:12, title:'Ashwagandha', desc:'Suplemento para redução do estresse e ansiedade.', price:'R$ 65,00', img:'Ashwagandha.png' },
   {id:13, title: 'Nacetilcisteína (NAC)', desc: 'Antioxidante que ajuda na desintoxicação do organismo.', price: 'R$ 70,00', img: 'NAC.png' },
   {id:14, title: 'Tribulus Terrestris', desc: 'Suplemento para aumento da testosterona e desempenho atlético.', price: 'R$ 69,90', img: 'Tribulus Terrestris.png' },
@@ -92,9 +92,10 @@ const body = document.body;
 
 btnTema?.addEventListener('click', () => {
   body.classList.toggle('tema-escuro');
+
   btnTema.textContent = body.classList.contains('tema-escuro')
-    ? '☀️ Modo Claro'
-    : '🌙 Modo Escuro';
+    ? '☀️ '
+    : '🌙 ';
 });
 
 // Init

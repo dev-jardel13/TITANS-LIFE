@@ -1,11 +1,14 @@
+<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <title>TITAN'S LIFE SUPLEMENTOS</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
 </head>
 <body>
+
     <header class="header">
         <div class="brand">
             <img id="logo" src="Logo.png" alt="Logo da Loja">
@@ -15,33 +18,42 @@
             </div>
         </div>
 
-        <button id="btn-mudar-tema" class="btn-tema">🌓 MUDAR TEMA</button>
+        <div class="header-actions">
+            <button id="btn-mudar-tema" class="btn btn-tema">
+                🌙 
+            </button>
 
-        <a id="whatsappLink" class="btn btn-whatsapp" href="https://wa.me/5585985471748?text=Olá,%20tenho%20interesse%20em%20comprar%20um%20suplemento!" target="_blank" rel="noopener">
-            Compre pelo WhatsApp
-        </a>
+            <a id="whatsappLink" 
+               class="btn btn-whatsapp" 
+               href="https://wa.me/5585985471748?text=Olá,%20tenho%20interesse%20em%20comprar%20um%20suplemento!" 
+               target="_blank" 
+               rel="noopener">
+                Compre pelo WhatsApp
+            </a>
+        </div>
     </header>
 
     <main class="main">
         <section class="hero">
             <h2>Coleção em destaque</h2>
-            
         </section>
+
         <section id="productGrid" class="grid" aria-live="polite"></section>
     </main>
-    
 
     <div id="modal" class="modal hidden" role="dialog" aria-hidden="true">
         <div class="modal-box">
             <button id="closeModal" class="modal-close" aria-label="Fechar">×</button>
+
             <img id="modalImg" alt="Imagem do produto">
             <h3 id="modalTitle"></h3>
             <p id="modalDesc"></p>
             <p id="modalPrice" class="price"></p>
-            
 
-            
-            <a id="modalBuy" class="btn btn-whatsapp" target="_blank" rel="noopener">
+            <a id="modalBuy" 
+               class="btn btn-whatsapp" 
+               target="_blank" 
+               rel="noopener">
                 Compre pelo WhatsApp
             </a>
         </div>
