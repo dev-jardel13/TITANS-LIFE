@@ -7,7 +7,7 @@
   --header: #0f1624;
   --card: #121826;
   --text: #ffffff;
-  --muted: #cbd5e1;
+  --muted: #ffffff;
   --border: #1f2937;
   --accent: #0d47a1;
   --button-theme: linear-gradient(45deg, #0050ff, #00a2ff);
@@ -19,7 +19,7 @@ body.tema-escuro {
   --header: #0a0a0a;
   --card: #111111;
   --text: #e5e5e5;
-  --muted: #aaaaaa;
+  --muted: #ffffff;
   --border: #222;
   --accent: #00a2ff;
   --button-theme: linear-gradient(45deg, #111, #333);
